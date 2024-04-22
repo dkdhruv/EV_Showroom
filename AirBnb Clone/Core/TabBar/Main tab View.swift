@@ -9,10 +9,28 @@ import SwiftUI
 
 struct Main_tab_View: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            Explore_View()
+                .tabItem {
+                    Label("Explore",systemImage : "magnifyingglass")
+                }
+            Spare_Parts_View()
+                .tabItem {
+                    Label("Spares",systemImage : "powercord.fill")
+                }
+            Chat_View()
+                .tabItem {
+                    Label("Chats",systemImage : "bubble.left.and.bubble.right.fill")
+                }
+            Profile_page()
+                .tabItem {
+                    Label("Profile",systemImage : "person.crop.circle.fill")
+                }
+        }
     }
 }
 
 #Preview {
     Main_tab_View()
+        .preferredColorScheme(.dark)
 }

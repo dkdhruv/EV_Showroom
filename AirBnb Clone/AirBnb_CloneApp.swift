@@ -2,16 +2,22 @@
 //  AirBnb_CloneApp.swift
 //  AirBnb Clone
 //
-//  Created by Admin on 14/03/24.
+//  Created by Dhruv Khanna on 14/03/24.
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct AirBnb_CloneApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            Main_tab_View()
         }
     }
 }

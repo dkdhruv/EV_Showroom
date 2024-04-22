@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class ExploreService {
+    func fetchlisting() async throws -> [ListingModel] {
+        return Devpreview().listings
+    }
+}

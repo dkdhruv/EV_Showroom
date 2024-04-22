@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct Listing_View: View {
-    var images = [
-        "Zing-Blue",
-        "Zing-White",
-        "Zing-Red",
-        ]
+    let listing : ListingModel
+//    var images = [
+//        "Zing-Blue",
+//        "Zing-White",
+//        "Zing-Red",
+//        ]
     var body: some View {
         VStack(spacing:8){
             //images
-            Listing_Carousel()
+            Listing_Carousel(listing: listing)
                 .frame(height: 320)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             
@@ -24,14 +25,14 @@ struct Listing_View: View {
             HStack(alignment :.top){
                 VStack(alignment:.leading){
                     //details
-                    Text("Zing")
+                    Text("\(listing.vehiclename)")
                         .bold()
                         .foregroundStyle(Color.accentColor)
                     Text("Red,Magic Blue, White")
                         .foregroundStyle(.gray)
                     Text("Non RTO")
                         .foregroundStyle(.gray)
-                    Text("Rs. 87,990/-")
+                    Text("\(listing.onroadprice)")
                         .bold()
                         .foregroundStyle(Color.accentColor)
                 }
@@ -40,7 +41,7 @@ struct Listing_View: View {
                 HStack(spacing :2){
                     Image(systemName: "star.fill")
                         .foregroundStyle(.yellow)
-                    Text("4.86")
+                    Text("\(listing.rating)")
                         .foregroundStyle(Color.accentColor)
                 }
             }
@@ -50,5 +51,5 @@ struct Listing_View: View {
 }
 
 #Preview {
-    Listing_View()
+    Listing_View(listing: Devpreview().listings[0])
 }

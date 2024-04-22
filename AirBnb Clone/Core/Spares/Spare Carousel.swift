@@ -2,14 +2,24 @@
 //  Spare Carousel.swift
 //  AirBnb Clone
 //
-//  Created by Admin on 13/04/24.
+//  Created by Dhruv Khanna on 13/04/24.
 //
 
 import SwiftUI
 
 struct Spare_Carousel: View {
+    var spare_image = ["Zing-Rim-1","Zing-Rim-1","Zing-Rim-1"]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+//            ForEach(listing.imageurls, id: \.self){ image in
+                ForEach(spare_image, id: \.self){image in
+                Image(image)
+                    .resizable()
+                    .scaledToFill()
+            }
+        }
+
+        .tabViewStyle(.page)
     }
 }
 

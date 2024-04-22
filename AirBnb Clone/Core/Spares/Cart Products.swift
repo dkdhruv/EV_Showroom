@@ -8,11 +8,42 @@
 import SwiftUI
 
 struct Cart_Products: View {
+    @EnvironmentObject var cartManager : CartManager
+    var product : Product
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing :20){
+            Image(product.image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 80)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+            VStack(alignment : .leading ,spacing: 5){
+                Text(product.name)
+                    .foregroundStyle(.black)
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .padding()
+                Text("Rs.\(product.price)/-")
+                    .padding()
+            }
+            Spacer()
+            
+            Button(action: {
+                cartManager.removeFromCart(product: product)
+            }, label: {
+                Image(systemName: "trash")
+                    .imageScale(.large)
+                    .foregroundStyle(.red)
+            })
+        }
+        .padding(.horizontal)
+        .frame(maxWidth : .infinity, alignment: .leading)
+        
+        Divider()
     }
 }
 
 #Preview {
-    Cart_Products()
+    Cart_Products( product: productList[2])
+        .environmentObject(CartManager())
 }

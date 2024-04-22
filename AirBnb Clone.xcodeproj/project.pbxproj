@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84028CCA2BBAEBC200037E8F /* Explore View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CC92BBAEBC200037E8F /* Explore View.swift */; };
+		84028CCC2BBC11C500037E8F /* Listing View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CCB2BBC11C500037E8F /* Listing View.swift */; };
+		84028CCE2BBC254800037E8F /* Search Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CCD2BBC254800037E8F /* Search Bar.swift */; };
+		84028CD02BBD660C00037E8F /* Listing Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CCF2BBD660C00037E8F /* Listing Details.swift */; };
+		84028CD32BBD686200037E8F /* Listing Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CD22BBD686200037E8F /* Listing Carousel.swift */; };
+		84028CD52BBEF70600037E8F /* Search filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CD42BBEF70500037E8F /* Search filter.swift */; };
+		84028CD72BC0619B00037E8F /* Profile page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CD62BC0619A00037E8F /* Profile page.swift */; };
+		84028CD92BC1824D00037E8F /* Profile options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CD82BC1824D00037E8F /* Profile options.swift */; };
+		84028CDB2BC1919B00037E8F /* Wishlist view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CDA2BC1919B00037E8F /* Wishlist view.swift */; };
+		84028CDD2BC1943300037E8F /* Main tab View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CDC2BC1943300037E8F /* Main tab View.swift */; };
+		84028CE12BC4122500037E8F /* ListingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CE02BC4122500037E8F /* ListingModel.swift */; };
+		84028CE32BC42CF000037E8F /* Dev Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CE22BC42CF000037E8F /* Dev Preview.swift */; };
+		84028CE52BC43A3800037E8F /* Explore view Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CE42BC43A3800037E8F /* Explore view Model.swift */; };
+		84028CE72BC43AC500037E8F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CE62BC43AC500037E8F /* Service.swift */; };
+		84028CE92BC58BBA00037E8F /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CE82BC58BBA00037E8F /* Regions.swift */; };
+		84028CEC2BC94B1300037E8F /* Spare Parts View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CEB2BC94B1300037E8F /* Spare Parts View.swift */; };
+		84028CEE2BCA6D2700037E8F /* Spare Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CED2BCA6D2600037E8F /* Spare Carousel.swift */; };
+		84028CF02BCA85C900037E8F /* parts model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CEF2BCA85C900037E8F /* parts model.swift */; };
+		84028CF22BCA8AEB00037E8F /* Product Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CF12BCA8AEB00037E8F /* Product Card.swift */; };
+		84028CF42BCAA0DF00037E8F /* Cart Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CF32BCAA0DF00037E8F /* Cart Button.swift */; };
+		84028CF62BCAAECF00037E8F /* Cart View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CF52BCAAECF00037E8F /* Cart View.swift */; };
+		84028CF82BCAB0F000037E8F /* Cart Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CF72BCAB0F000037E8F /* Cart Manager.swift */; };
+		84028CFA2BCAC7A100037E8F /* Cart Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CF92BCAC7A100037E8F /* Cart Products.swift */; };
+		84028CFC2BCBF10500037E8F /* Payment Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CFB2BCBF10500037E8F /* Payment Button.swift */; };
+		84028CFE2BCD42F000037E8F /* Custom TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028CFD2BCD42F000037E8F /* Custom TextField.swift */; };
+		84028D012BCFF37300037E8F /* Booking Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D002BCFF37200037E8F /* Booking Page.swift */; };
+		84028D032BD1003F00037E8F /* Back Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D022BD1003F00037E8F /* Back Button.swift */; };
+		84028D052BD11B4600037E8F /* Custom Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D042BD11B4600037E8F /* Custom Menu.swift */; };
+		84028D092BD2B82B00037E8F /* Title Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D082BD2B82B00037E8F /* Title Row.swift */; };
+		84028D0B2BD457D200037E8F /* Chat View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D0A2BD457D200037E8F /* Chat View.swift */; };
+		84028D0D2BD4587E00037E8F /* Message Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D0C2BD4587E00037E8F /* Message Model.swift */; };
+		84028D0F2BD459C900037E8F /* Message Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D0E2BD459C800037E8F /* Message Bubble.swift */; };
+		84028D112BD4815F00037E8F /* Chat Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D102BD4815F00037E8F /* Chat Extensions.swift */; };
+		84028D132BD4829200037E8F /* Message Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D122BD4829200037E8F /* Message Field.swift */; };
+		84028D152BD4FF0100037E8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84028D142BD4FF0100037E8F /* GoogleService-Info.plist */; };
+		84028D182BD505B900037E8F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 84028D172BD505B900037E8F /* FirebaseFirestore */; };
+		84028D1A2BD505B900037E8F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84028D192BD505B900037E8F /* FirebaseFirestoreSwift */; };
+		84028D1C2BD5135800037E8F /* Messages Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028D1B2BD5135800037E8F /* Messages Manager.swift */; };
 		847A3E1A2BA31B78003046AF /* AirBnb_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A3E192BA31B78003046AF /* AirBnb_CloneApp.swift */; };
 		847A3E1C2BA31B78003046AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A3E1B2BA31B78003046AF /* ContentView.swift */; };
 		847A3E1E2BA31B7B003046AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A3E1D2BA31B7B003046AF /* Assets.xcassets */; };
@@ -14,6 +52,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84028CC92BBAEBC200037E8F /* Explore View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Explore View.swift"; sourceTree = "<group>"; };
+		84028CCB2BBC11C500037E8F /* Listing View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Listing View.swift"; sourceTree = "<group>"; };
+		84028CCD2BBC254800037E8F /* Search Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Bar.swift"; sourceTree = "<group>"; };
+		84028CCF2BBD660C00037E8F /* Listing Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Listing Details.swift"; sourceTree = "<group>"; };
+		84028CD22BBD686200037E8F /* Listing Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Listing Carousel.swift"; sourceTree = "<group>"; };
+		84028CD42BBEF70500037E8F /* Search filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search filter.swift"; sourceTree = "<group>"; };
+		84028CD62BC0619A00037E8F /* Profile page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile page.swift"; sourceTree = "<group>"; };
+		84028CD82BC1824D00037E8F /* Profile options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile options.swift"; sourceTree = "<group>"; };
+		84028CDA2BC1919B00037E8F /* Wishlist view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wishlist view.swift"; sourceTree = "<group>"; };
+		84028CDC2BC1943300037E8F /* Main tab View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main tab View.swift"; sourceTree = "<group>"; };
+		84028CE02BC4122500037E8F /* ListingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingModel.swift; sourceTree = "<group>"; };
+		84028CE22BC42CF000037E8F /* Dev Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dev Preview.swift"; sourceTree = "<group>"; };
+		84028CE42BC43A3800037E8F /* Explore view Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Explore view Model.swift"; sourceTree = "<group>"; };
+		84028CE62BC43AC500037E8F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		84028CE82BC58BBA00037E8F /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
+		84028CEB2BC94B1300037E8F /* Spare Parts View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spare Parts View.swift"; sourceTree = "<group>"; };
+		84028CED2BCA6D2600037E8F /* Spare Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spare Carousel.swift"; sourceTree = "<group>"; };
+		84028CEF2BCA85C900037E8F /* parts model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "parts model.swift"; sourceTree = "<group>"; };
+		84028CF12BCA8AEB00037E8F /* Product Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product Card.swift"; sourceTree = "<group>"; };
+		84028CF32BCAA0DF00037E8F /* Cart Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart Button.swift"; sourceTree = "<group>"; };
+		84028CF52BCAAECF00037E8F /* Cart View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart View.swift"; sourceTree = "<group>"; };
+		84028CF72BCAB0F000037E8F /* Cart Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart Manager.swift"; sourceTree = "<group>"; };
+		84028CF92BCAC7A100037E8F /* Cart Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart Products.swift"; sourceTree = "<group>"; };
+		84028CFB2BCBF10500037E8F /* Payment Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment Button.swift"; sourceTree = "<group>"; };
+		84028CFD2BCD42F000037E8F /* Custom TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom TextField.swift"; sourceTree = "<group>"; };
+		84028D002BCFF37200037E8F /* Booking Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking Page.swift"; sourceTree = "<group>"; };
+		84028D022BD1003F00037E8F /* Back Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Back Button.swift"; sourceTree = "<group>"; };
+		84028D042BD11B4600037E8F /* Custom Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Menu.swift"; sourceTree = "<group>"; };
+		84028D082BD2B82B00037E8F /* Title Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Title Row.swift"; sourceTree = "<group>"; };
+		84028D0A2BD457D200037E8F /* Chat View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat View.swift"; sourceTree = "<group>"; };
+		84028D0C2BD4587E00037E8F /* Message Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message Model.swift"; sourceTree = "<group>"; };
+		84028D0E2BD459C800037E8F /* Message Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message Bubble.swift"; sourceTree = "<group>"; };
+		84028D102BD4815F00037E8F /* Chat Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat Extensions.swift"; sourceTree = "<group>"; };
+		84028D122BD4829200037E8F /* Message Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message Field.swift"; sourceTree = "<group>"; };
+		84028D142BD4FF0100037E8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84028D1B2BD5135800037E8F /* Messages Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Messages Manager.swift"; sourceTree = "<group>"; };
 		847A3E162BA31B78003046AF /* AirBnb Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBnb Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A3E192BA31B78003046AF /* AirBnb_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnb_CloneApp.swift; sourceTree = "<group>"; };
 		847A3E1B2BA31B78003046AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +100,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84028D182BD505B900037E8F /* FirebaseFirestore in Frameworks */,
+				84028D1A2BD505B900037E8F /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84028CD12BBD684B00037E8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84028CD22BBD686200037E8F /* Listing Carousel.swift */,
+				84028CFB2BCBF10500037E8F /* Payment Button.swift */,
+				84028CFD2BCD42F000037E8F /* Custom TextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		84028CDF2BC4118000037E8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84028CE02BC4122500037E8F /* ListingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84028CEA2BC94AEF00037E8F /* Spares */ = {
+			isa = PBXGroup;
+			children = (
+				84028CEB2BC94B1300037E8F /* Spare Parts View.swift */,
+				84028CED2BCA6D2600037E8F /* Spare Carousel.swift */,
+				84028CEF2BCA85C900037E8F /* parts model.swift */,
+				84028CF12BCA8AEB00037E8F /* Product Card.swift */,
+				84028CF32BCAA0DF00037E8F /* Cart Button.swift */,
+				84028CF52BCAAECF00037E8F /* Cart View.swift */,
+				84028CF72BCAB0F000037E8F /* Cart Manager.swift */,
+				84028CF92BCAC7A100037E8F /* Cart Products.swift */,
+			);
+			path = Spares;
+			sourceTree = "<group>";
+		};
+		84028CFF2BCFF31800037E8F /* Booking View */ = {
+			isa = PBXGroup;
+			children = (
+				84028D002BCFF37200037E8F /* Booking Page.swift */,
+			);
+			path = "Booking View";
+			sourceTree = "<group>";
+		};
 		847A3E0D2BA31B78003046AF = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +169,11 @@
 			isa = PBXGroup;
 			children = (
 				847A3E192BA31B78003046AF /* AirBnb_CloneApp.swift */,
+				84028D142BD4FF0100037E8F /* GoogleService-Info.plist */,
+				847A3E272BA37E87003046AF /* Core */,
+				847A3E2C2BA37F06003046AF /* Extensions */,
+				847A3E2B2BA37F02003046AF /* Firebase */,
+				847A3E2D2BA37F1B003046AF /* Utilities */,
 				847A3E1B2BA31B78003046AF /* ContentView.swift */,
 				847A3E1D2BA31B7B003046AF /* Assets.xcassets */,
 				847A3E1F2BA31B7B003046AF /* Preview Content */,
@@ -65,6 +187,116 @@
 				847A3E202BA31B7B003046AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		847A3E272BA37E87003046AF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84028CEA2BC94AEF00037E8F /* Spares */,
+				84028CD12BBD684B00037E8F /* Components */,
+				847A3E322BA385B3003046AF /* Explore */,
+				847A3E312BA385B0003046AF /* Listings */,
+				847A3E302BA385AD003046AF /* MapView */,
+				847A3E2F2BA385AA003046AF /* Profile */,
+				847A3E342BA385F2003046AF /* Root */,
+				847A3E332BA385E8003046AF /* TabBar */,
+				847A3E2E2BA38593003046AF /* Wishlist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		847A3E2B2BA37F02003046AF /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				84028D082BD2B82B00037E8F /* Title Row.swift */,
+				84028D0A2BD457D200037E8F /* Chat View.swift */,
+				84028D0C2BD4587E00037E8F /* Message Model.swift */,
+				84028D0E2BD459C800037E8F /* Message Bubble.swift */,
+				84028D122BD4829200037E8F /* Message Field.swift */,
+				84028D1B2BD5135800037E8F /* Messages Manager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		847A3E2C2BA37F06003046AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84028CE22BC42CF000037E8F /* Dev Preview.swift */,
+				84028CE82BC58BBA00037E8F /* Regions.swift */,
+				84028D102BD4815F00037E8F /* Chat Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		847A3E2D2BA37F1B003046AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				84028D022BD1003F00037E8F /* Back Button.swift */,
+				84028D042BD11B4600037E8F /* Custom Menu.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		847A3E2E2BA38593003046AF /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				84028CDA2BC1919B00037E8F /* Wishlist view.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		847A3E2F2BA385AA003046AF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84028CD62BC0619A00037E8F /* Profile page.swift */,
+				84028CD82BC1824D00037E8F /* Profile options.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		847A3E302BA385AD003046AF /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		847A3E312BA385B0003046AF /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				84028CCB2BBC11C500037E8F /* Listing View.swift */,
+				84028CCF2BBD660C00037E8F /* Listing Details.swift */,
+				84028CDF2BC4118000037E8F /* Model */,
+				84028CFF2BCFF31800037E8F /* Booking View */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		847A3E322BA385B3003046AF /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				84028CC92BBAEBC200037E8F /* Explore View.swift */,
+				84028CCD2BBC254800037E8F /* Search Bar.swift */,
+				84028CD42BBEF70500037E8F /* Search filter.swift */,
+				84028CE42BC43A3800037E8F /* Explore view Model.swift */,
+				84028CE62BC43AC500037E8F /* Service.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		847A3E332BA385E8003046AF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				84028CDC2BC1943300037E8F /* Main tab View.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		847A3E342BA385F2003046AF /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +315,10 @@
 			dependencies = (
 			);
 			name = "AirBnb Clone";
+			packageProductDependencies = (
+				84028D172BD505B900037E8F /* FirebaseFirestore */,
+				84028D192BD505B900037E8F /* FirebaseFirestoreSwift */,
+			);
 			productName = "AirBnb Clone";
 			productReference = 847A3E162BA31B78003046AF /* AirBnb Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +347,9 @@
 				Base,
 			);
 			mainGroup = 847A3E0D2BA31B78003046AF;
+			packageReferences = (
+				84028D162BD505B800037E8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 847A3E172BA31B78003046AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +366,7 @@
 			files = (
 				847A3E212BA31B7B003046AF /* Preview Assets.xcassets in Resources */,
 				847A3E1E2BA31B7B003046AF /* Assets.xcassets in Resources */,
+				84028D152BD4FF0100037E8F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +377,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84028CF42BCAA0DF00037E8F /* Cart Button.swift in Sources */,
+				84028CD32BBD686200037E8F /* Listing Carousel.swift in Sources */,
+				84028CF82BCAB0F000037E8F /* Cart Manager.swift in Sources */,
+				84028D012BCFF37300037E8F /* Booking Page.swift in Sources */,
+				84028D092BD2B82B00037E8F /* Title Row.swift in Sources */,
+				84028CCE2BBC254800037E8F /* Search Bar.swift in Sources */,
+				84028CD52BBEF70600037E8F /* Search filter.swift in Sources */,
+				84028D0F2BD459C900037E8F /* Message Bubble.swift in Sources */,
+				84028CD92BC1824D00037E8F /* Profile options.swift in Sources */,
 				847A3E1C2BA31B78003046AF /* ContentView.swift in Sources */,
+				84028CDD2BC1943300037E8F /* Main tab View.swift in Sources */,
+				84028CD02BBD660C00037E8F /* Listing Details.swift in Sources */,
+				84028CF22BCA8AEB00037E8F /* Product Card.swift in Sources */,
+				84028CE92BC58BBA00037E8F /* Regions.swift in Sources */,
+				84028CE32BC42CF000037E8F /* Dev Preview.swift in Sources */,
+				84028CE52BC43A3800037E8F /* Explore view Model.swift in Sources */,
+				84028CE72BC43AC500037E8F /* Service.swift in Sources */,
+				84028CF62BCAAECF00037E8F /* Cart View.swift in Sources */,
+				84028D032BD1003F00037E8F /* Back Button.swift in Sources */,
+				84028CCA2BBAEBC200037E8F /* Explore View.swift in Sources */,
+				84028CCC2BBC11C500037E8F /* Listing View.swift in Sources */,
 				847A3E1A2BA31B78003046AF /* AirBnb_CloneApp.swift in Sources */,
+				84028CEE2BCA6D2700037E8F /* Spare Carousel.swift in Sources */,
+				84028D0B2BD457D200037E8F /* Chat View.swift in Sources */,
+				84028D112BD4815F00037E8F /* Chat Extensions.swift in Sources */,
+				84028CFC2BCBF10500037E8F /* Payment Button.swift in Sources */,
+				84028CDB2BC1919B00037E8F /* Wishlist view.swift in Sources */,
+				84028CF02BCA85C900037E8F /* parts model.swift in Sources */,
+				84028D0D2BD4587E00037E8F /* Message Model.swift in Sources */,
+				84028CD72BC0619B00037E8F /* Profile page.swift in Sources */,
+				84028CFE2BCD42F000037E8F /* Custom TextField.swift in Sources */,
+				84028CE12BC4122500037E8F /* ListingModel.swift in Sources */,
+				84028D132BD4829200037E8F /* Message Field.swift in Sources */,
+				84028CFA2BCAC7A100037E8F /* Cart Products.swift in Sources */,
+				84028D052BD11B4600037E8F /* Custom Menu.swift in Sources */,
+				84028D1C2BD5135800037E8F /* Messages Manager.swift in Sources */,
+				84028CEC2BC94B1300037E8F /* Spare Parts View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -344,6 +619,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84028D162BD505B800037E8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84028D172BD505B900037E8F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84028D162BD505B800037E8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		84028D192BD505B900037E8F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84028D162BD505B800037E8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 847A3E0E2BA31B78003046AF /* Project object */;
 }

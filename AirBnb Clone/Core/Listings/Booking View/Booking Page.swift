@@ -42,12 +42,15 @@ struct Booking_Page: View {
                 Text("\(listing.vehiclename)")
                     .font(.title)
                     .fontWeight(.bold)
-                Divider()
+//                Divider()
                 
                 Form{
                     Custom_TextField(text: $name, placeholder: "Enter Full Name")
+                        .foregroundStyle(.black)
                     Custom_TextField(text: $address, placeholder: "Enter Delivery Address")
+                        .foregroundStyle(.black)
                     Custom_TextField(text: $dealer, placeholder: "Select Dealer Name")
+                        .foregroundStyle(.black)
                     DatePicker("Delivery Date", selection: $dob, displayedComponents: .date)
                         .foregroundColor(.red)
                         .fontWeight(.semibold)
@@ -92,6 +95,7 @@ struct Booking_Page: View {
                 
                 
             }
+
         }
         .background(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.white]), startPoint: .top, endPoint: .bottom))
         
@@ -104,4 +108,5 @@ struct Booking_Page: View {
 
 #Preview {
     Booking_Page(listing: Devpreview().listings[1], name: .constant(""), address: .constant(""), dealer: .constant(""))
+        .preferredColorScheme(.dark)
 }
